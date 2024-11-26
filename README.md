@@ -29,12 +29,12 @@ Esta é uma landing page responsiva desenvolvida com **HTML**, **CSS** e **JavaS
 ## 🌟 Aprendizados
 Durante o desenvolvimento deste projeto, aprendi:
 
-Estruturar projetos web simples.
-Trabalhar com responsividade utilizando CSS.
-Adicionar interatividade básica com JavaScript.
-Uso do Git
+- Estruturar projetos web simples.
+- Trabalhar com responsividade utilizando CSS.
+- Adicionar interatividade básica com JavaScript.
+- Uso do Git
 
 ## ✉️ Contato
-Nome: Bruno Henrique da Silva Mosko
-E-mail: bruno-hs@outlook.com
-LinkedIn: https://www.linkedin.com/in/bruno-henrique-da-silva-mosko/
+- Nome: Bruno Henrique da Silva Mosko
+- E-mail: bruno-hs@outlook.com
+- LinkedIn: https://www.linkedin.com/in/bruno-henrique-da-silva-mosko/

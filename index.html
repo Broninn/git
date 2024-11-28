@@ -21,28 +21,30 @@
       </div>
 
       <div id="switch" onclick="toggleMode()">
-        <button>
-
-        </button>
-        <span id="track">
-
-        </span>
+        <button></button>
+        <span id="track"> </span>
       </div>
 
       <ul>
         <li>
-          <a href="#">Inscrever</a>
+          <a href="#" data-content="content-html">Projetos em HTML, CSS e JS</a>
         </li>
         <li>
-          <a href="#">Baixar</a>
+          <a href="#" data-content="content-nextjs">Projetos em NextJS</a>
         </li>
         <li>
-          <a href="https://github.com/broninn" target="_blank">Portfolio</a>
+          <a
+            href="https://github.com/broninn"
+            data-content="content-moodle"
+            target="_blank"
+            >Competências Moodle</a
+          >
         </li>
-        <li>
-          <a href="#">Conheça</a>
-        </li>
+        <!-- <li>
+          <a href="#" data-content="content-conheca">Conheça</a>
+        </li> -->
       </ul>
+
       <div id="social-links">
         <a href="https://github.com/broninn" target="_blank"
           ><ion-icon name="logo-github"></ion-icon
@@ -59,10 +61,40 @@
           ><ion-icon name="logo-linkedin"></ion-icon
         ></a>
       </div>
-      <footer>
-        Feito por mim, Broninn
-      </footer>
+      <footer>Feito por mim, Broninn</footer>
     </div>
+    <div id="modal" class="hidden">
+      <div class="modal-content">
+        <span id="close-modal">&times;</span>
+
+        <!-- Conteúdos específicos -->
+        <div class="modal-body" id="content-html" style="display: none">
+          <p>
+            <span>Projetos em HTML, CSS e JS</span>
+            <a href="https://broninn.github.io/BGMAD/" target="_blank">BGMAD</a>
+            <a href="https://broninn.github.io/HSTech/" target="_blank"
+              >HS Tech</a
+            >
+          </p>
+        </div>
+        <div class="modal-body" id="content-nextjs" style="display: none">
+          <p>
+            <span>Projetos em NextJS</span>
+            <a href="https://www.geofore.com.br/" target="_blank">Geofore</a>
+          </p>
+        </div>
+        <div class="modal-body" id="content-moodle" style="display: none">
+          <p>
+            <span>Competências Moodle</span>
+            <a href="https://www.linkedin.com/in/bruno-henrique-da-silva-mosko/details/certifications/" target="_blank">Competências Moodle</a>
+          </p>
+        </div>
+        <div class="modal-body" id="content-conheca" style="display: none">
+          <p>Conteúdo para Conheça</p>
+        </div>
+      </div>
+    </div>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
